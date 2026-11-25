@@ -1,0 +1,27 @@
+{
+    "version": "0.9.0",
+    "description": "Local dashboard that monitors and restarts your dev services — processes, ports, logs and dependencies in one window.",
+    "homepage": "https://github.com/dvinerlove/dev-dashboard",
+    "license": "MIT",
+    "url": "https://github.com/dvinerlove/dev-dashboard/releases/download/v0.9.0/DevDashboard-windows-x64.zip",
+    "hash": "c6c5ea6e5ce783fe9dfc2972fe0aa01d576200b90b8f71b0f57a19e5cba820d3",
+    "bin": [
+        [
+            "DevDashboard.exe",
+            "devdash"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "DevDashboard.exe",
+            "Dev Dashboard"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/dvinerlove/dev-dashboard/releases/download/v$version/DevDashboard-windows-x64.zip",
+        "hash": {
+            "url": "$baseurl/DevDashboard-windows-x64.zip.sha256"
+        }
+    }
+}
