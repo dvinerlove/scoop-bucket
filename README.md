@@ -11,3 +11,5 @@ scoop install dvinerlove/motu-ui
 
 - **motu-ui** — unofficial control panel for MOTU M2/M4/M6 audio interfaces.
   Requires the official MOTU M-Series driver.
+- **dev-dashboard** — local dashboard that monitors and restarts dev services:
+  processes, ports, logs and dependencies in one window.
